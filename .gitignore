@@ -1,0 +1,40 @@
+# Variables d'environnement (clés API — NE JAMAIS committer)
+.env
+*.env
+.env.local
+
+# Build Maven
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+
+# IDE - VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires
+*.tmp
+*.bak
+# Cache des réponses Sofascore / IA et historique des coupons
+cache/
+data/
